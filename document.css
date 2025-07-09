@@ -557,7 +557,7 @@ li::marker {
 
 /* Responsive Design */
 
-@media (max-width: 480px) {
+@media (max-width: 1080px) {
   .containor {
     margin: 20px 0px 0px 0px;
     flex-direction: column;
