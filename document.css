@@ -562,7 +562,7 @@ li::marker {
   /* header section */
 .name-tag {
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
     text-align: center;
     margin-right: 0px;
     font-weight: 700;
@@ -673,23 +673,24 @@ header a {
     line-height: 3rem;
 }
 
+
 .link-head {
     color: white;
     font-size: 35px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
+
 
 .links{
     display: flex;
     justify-content: center;
     list-style-type: none;
     gap: 40px;
-    margin-top: 15px;
 }
 
 .link-head{
     text-align: center;
-    margin: 15px 0px 0px 5px;
+    margin: 15px 0px 1 px 0px;
 }
 
 .lk {
@@ -702,19 +703,19 @@ header a {
     justify-content: center;
     position: relative;
     gap: 3.5rem;
-    top: 80px;
+    top: 60px;
 }
 
 .btn{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 65px;
     margin: 0px 0px 15rem 0%;
     color: white;
     background-color: red;
-    padding: 20px;
+    padding: 30px;
     border: 3px solid white;
-    border-radius: 35px;
+    border-radius: 45px;
 }
 
 .btn:hover {
@@ -728,7 +729,7 @@ header a {
     position: static;
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 40px 0px;
     text-decoration: none;
     
   }
@@ -745,158 +746,3 @@ header a {
   }
 
 }
-
-/* @media (max-width: 1080px) {
-  .containor {
-    margin: 20px 0px 0px 0px;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
-
-  .Header {
-    height: fit-content;
-  }
-
-  .name-tag{
-    align-items: center;
-    margin: 0px;
-  }
-
-  .resume {
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
-
-  .tags {
-    font-size: small;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  #Box {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .id{
-    font-size: 25px;
-  }
-
-  .mern{
-    font-size: 25px;
-  }
-
-  .para{
-    font-size: 18px;
-  }
-
-  .img1 {
-    position: static;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    text-decoration: none;
-    
-  }
-
-  .main-img:hover {
-    transform: none;
-    box-shadow: none;
-  }
-
-  .main-img {
-    height: 18rem;
-    box-shadow: none;
-  }
-
-  .buttons {
-    justify-content: center;
-    top: 20px;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .btn {
-    margin: 10px;
-  }
-
-  .link-head {
-    align-items: center;
-  }
-
-  .links {
-    display: flex;
-    justify-content: center;
-  }
-
-  .btn{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    margin: 10px 0px 0px 20px;
-    color: white;
-    background-color: red;
-    padding: 15px;
-    border: 3px solid white;
-    border-radius: 20px;
-}
-
-.btn:hover {
-    background-color: #c3231b;
-    transform: scale(1.1);
-    box-shadow: 0 6px 12px rgba(255, 0, 0, 0.2);
-    transition: all 0.5s ease-in-out;
-}
-
-
-/* Responsive tags of education start from here */
-
-  .education .box-container .box {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-  }
-
-
-
-  .education .box-container .box .image {
-    flex: 1 1 10rem;
-    height: 40rem;
-    width: 100%;
-}
-  
-  .education .box-container .box img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .education .box-container .box .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 0;
-  }
-
-.content {
-    margin-top: 15px;
-    align-items: center;
-}
-  
-.education .btns {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    flex-wrap: wrap;
-  }
-
-
-  /* portfolio section edit */
-
-.Portfolio-containor .port {
-    width: 80%;
-}
-
