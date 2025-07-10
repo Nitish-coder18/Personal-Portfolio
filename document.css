@@ -558,6 +558,195 @@ li::marker {
 /* Responsive Design */
 
 @media (max-width: 1080px) {
+
+  /* header section */
+.name-tag {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-right: 0px;
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+.Header {
+    font-family: "Open Sans", sans-serif;
+    height: fit-content;
+    border-bottom: 2px solid gray;
+}
+
+.containor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: "Roboto Condensed", sans-serif;
+    gap: 40px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.Tag {
+    font-size: 35px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Tag:hover {
+    font-size: 1.5em;
+}
+
+.My-Pdf {
+  font-size: 35px;
+}
+
+.resume {
+    align-items: center;
+    background-color: red;
+    padding: 38px;
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 40px;
+    bottom: 13px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.Header {
+    background-color: rgb(0, 0, 0); 
+    /*abhi idhar photo ka url set krna hai  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+/* Body Tag Of first page */
+
+#Box {
+    height: auto;
+    width: auto;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.id {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.mern {
+    color: rgb(241, 33, 18);
+    margin: 20px 0px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+}
+
+.para {
+    font-family: "Libertinus Math", system-ui;
+    color: white;
+    font-size: 40px;
+    margin: 25px 0px;
+    line-height: 3rem;
+}
+
+.link-head {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.link-head{
+    text-align: center;
+    margin: 15px 0px 0px 5px;
+}
+
+.lk {
+    font-size: 45px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 3.5rem;
+    top: 80px;
+}
+
+.btn{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0px 0px 15rem 0%;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 35px;
+}
+
+.btn:hover {
+    background-color: #c3231b;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(255, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.img1 {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    text-decoration: none;
+    
+  }
+
+.main-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 40px 50px rgba(189, 189, 189, 0.4);
+  }
+
+.main-img {
+    height: 50rem;
+    width: auto;
+    box-shadow: none;
+  }
+
+}
+
+/* @media (max-width: 1080px) {
   .containor {
     margin: 20px 0px 0px 0px;
     flex-direction: column;
@@ -675,7 +864,7 @@ li::marker {
 
   .education .box-container .box .image {
     flex: 1 1 10rem;
-    height: 15rem;
+    height: 40rem;
     width: 100%;
 }
   
@@ -694,7 +883,7 @@ li::marker {
 
 .content {
     margin-top: 15px;
-
+    align-items: center;
 }
   
 .education .btns {
@@ -709,7 +898,5 @@ li::marker {
 
 .Portfolio-containor .port {
     width: 80%;
-}
-
 }
 
