@@ -743,6 +743,93 @@ header a {
     height: 50rem;
     width: auto;
     box-shadow: none;
-  }
+}
+
+/* education */
+
+.education {
+  overflow: hidden;
+  background: #000000;
+  border-bottom: 2px solid gray;
+}
+
+.heading {
+  font-size: rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  
+}
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.education .box-container .box {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: 0.3s;
+  background: rgb(29, 28, 28);
+}
+.education .box-container .box:hover {
+  transform: scale(1.03);
+  box-shadow: 1rem 0.5rem 1.2rem rgba(82, 61, 61, 0.3);
+}
+.education .box-container .box .image {
+  width: 100%;
+}
+.education .box-container .box img {
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.education .box-container .box .content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3%  1%  1%  1%;
+  flex-wrap: wrap;
+  flex: 1 1 10rem;
+}
+.education .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #ef0707;
+  padding: 0.5rem 0;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+
+.education .box-container .box .content p {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.education h4 {
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.heading {
+  margin-top: 35px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
 
 }
