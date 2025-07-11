@@ -576,6 +576,7 @@ li::marker {
 }
 
 .containor{
+    margin: 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -587,13 +588,13 @@ li::marker {
     flex-wrap: wrap;
     list-style-type: none;
     font-family: "Roboto Condensed", sans-serif;
-    gap: 40px;
-    font-weight: 400;
+    gap: 20px;
+    font-weight: 200;
     margin-bottom: 2rem;
 }
 
 .Tag {
-    font-size: 35px;
+    font-size: 30px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -668,9 +669,9 @@ header a {
 .para {
     font-family: "Libertinus Math", system-ui;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     margin: 25px 0px;
-    line-height: 3rem;
+    line-height: 4rem;
 }
 
 
@@ -685,7 +686,7 @@ header a {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 40px;
+    gap: 20px;
 }
 
 .link-head{
