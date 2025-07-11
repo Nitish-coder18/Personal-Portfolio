@@ -686,7 +686,7 @@ header a {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 20px;
+    gap: 10px;
 }
 
 .link-head{
@@ -752,6 +752,7 @@ header a {
   overflow: hidden;
   background: #000000;
   border-bottom: 2px solid gray;
+  height: auto;
 }
 
 .heading {
@@ -762,6 +763,7 @@ header a {
   margin-top: 0.5rem;
   
 }
+
 .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -802,25 +804,26 @@ header a {
   flex: 1 1 10rem;
 }
 .education .box-container .box .content h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #ef0707;
   padding: 0.5rem 0;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   margin-left: 1rem;
+  margin-top: 20px;
 }
 
 
 .education .box-container .box .content p {
   font-size: 1.5rem;
   margin-left: 1rem;
-  text-align: left;
+  text-align: center;
 }
 
 .education h4 {
   font-size: 1.3rem;
   color: rgb(255, 255, 255);
-  text-align: left;
+  text-align: center;
   margin: 1rem;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
