@@ -756,11 +756,10 @@ header a {
 }
 
 .heading {
-  font-size: rem;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  margin-top: 0.5rem;
+  margin-top: 5rem;
   
 }
 
@@ -775,21 +774,22 @@ header a {
 .education .box-container .box {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 75%;
+  height: auto;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(255, 255, 255, 0.2);
   text-align: center;
   transition: 0.3s;
   background: rgb(29, 28, 28);
 }
-.education .box-container .box:hover {
+.box-container .box:hover {
   transform: scale(1.03);
   box-shadow: 1rem 0.5rem 1.2rem rgba(82, 61, 61, 0.3);
 }
-.education .box-container .box .image {
+.box-container .box .image {
   width: 100%;
 }
-.education .box-container .box img {
+.box-container .box img {
   object-fit: cover;
   position: relative;
   width: 100%;
@@ -815,16 +815,16 @@ header a {
 
 
 .education .box-container .box .content p {
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-left: 1rem;
   text-align: center;
 }
 
 .education h4 {
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin: 1rem;
+  margin: 1.5rem;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
