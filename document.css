@@ -292,7 +292,7 @@ header a {
     margin-top: 4rem;
 }
 .skills-content{
-    flex: 1 1 30rem;
+    flex: 1 1 50rem;
     padding: 3rem 2rem 4rem;
     text-align: center;
     border-radius: .5rem;
@@ -310,7 +310,7 @@ header a {
 
 .list {
   text-align: left;
-  font-family: "Comic Neue", cursive;
+  font-family: "Libertinus Math", system-ui;
   font-size: 1.1rem;
   line-height: 30px;
 }
@@ -329,7 +329,7 @@ li::marker {
     font-size: 2rem;
 }
 .skills-content p{
-    font-family: "Comic Neue", cursive;
+    font-family: "Libertinus Math", system-ui;
     font-size: 1.2rem;
     color: #ffffff;
     margin: .8rem 0;
@@ -828,5 +828,40 @@ header a {
   color: white;
   font-size: 35px;
 }
+
+
+/* skills section */
+.title {
+  font-size: 4rem;
+  margin-top: 40px;
+}
+
+.skl {
+  margin-bottom: 6rem;
+}
+
+.skill-container{
+    margin-top: 3rem;
+    gap: 4rem;
+}
+
+.skills1 {
+  font-size: 3rem;
+
+}
+
+.list {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.skills-content h5{
+    font-size: 3rem;
+}
+
+.skills-content p{
+    font-size: 2rem;
+}
+
 
 }
