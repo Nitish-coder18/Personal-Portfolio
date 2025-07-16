@@ -756,11 +756,15 @@ header a {
   height: auto;
 }
 
-.heading {
+.edu {
+  margin-top: 3rem;
+}
+
+.heading .title-edu {
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  margin-top: 5rem; 
+  font-size: 45px;
 }
 
 .box-container {
@@ -769,31 +773,19 @@ header a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 25px;
+  gap: 40px;
+  margin-top: 30px;
 }
 .education .box-container .box {
   display: flex;
   flex-direction: column;
   width: 75%;
   border-radius: 2rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(255, 255, 255, 0.2);
   text-align: center;
-  transition: 0.3s;
   background: rgb(29, 28, 28);
 }
-.box-container .box:hover {
-  transform: scale(1.03);
-  box-shadow: 1rem 0.5rem 1.2rem rgba(82, 61, 61, 0.3);
-}
-.box-container .box .image {
-  width: 100%;
-}
-.box-container .box img {
-  object-fit: cover;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
+
+
 .education .box-container .box .content {
   height: auto;
   width: auto;
