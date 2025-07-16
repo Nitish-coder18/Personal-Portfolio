@@ -861,7 +861,63 @@ header a {
 
 .skills-content p{
     font-size: 2rem;
+    line-height: 4rem;
 }
 
+/* portfolio */
+
+#port-heading {
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
+  margin: 4rem 0px;
+}
+
+.Portfolio-containor {
+  flex-direction: column;
+  gap: 5rem;
+  margin-bottom: 6rem;
+}
+
+.Portfolio-containor .port {
+    width: 100%;
+}
+
+.port {
+  background: #1d1c1c;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: .5s ease;
+}
+
+.port:hover{
+    border: 2px solid #eeeeee;
+    transform: scale(1.02)
+}
+
+.port img {
+  display: relative;
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.port-items {
+  text-align: center;
+  color: white;
+  height: auto;
+  margin: 50px 0px;
+}
+
+.port h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.port p {
+  font-family: "Libertinus Math", system-ui;
+  margin-bottom: 5px;
+  font-size: 3rem;
+}
 
 }
