@@ -446,7 +446,7 @@ li::marker {
 
 .contact-subheading {
   opacity: 0.9;
-  font-family: "Comic Neue", cursive;
+  font-family: "Nunito", sans-serif;
   margin-bottom: 5px;
   font-size: 20px;
   margin-bottom: 5rem;
@@ -521,7 +521,7 @@ li::marker {
   justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
-  font-family: "Comic Neue", cursive;
+  font-family: "Nunito", sans-serif;
 }
 
 .contact-links a {
@@ -547,7 +547,7 @@ li::marker {
     background-color: #252327;
     padding: 0.1% 0px;
     text-align: center;
-    font-family: "Comic Neue", cursive;
+    font-family: "Nunito", sans-serif;
     color: white;
     font-size: 15px;
 }
@@ -923,7 +923,7 @@ header a {
 
 /* Contact Section Base */
 .contact-section {
-  padding: 35rem 20px;
+  padding: 25rem 20px;
   text-align: center;
   color: white;
   font-family: 'Segoe UI', sans-serif;
