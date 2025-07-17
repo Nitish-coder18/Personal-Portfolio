@@ -855,6 +855,10 @@ header a {
   line-height: 3rem;
 }
 
+.skills-content {
+  padding: 3rem 3.3rem 4rem;
+}
+
 .skills-content h5{
     font-size: 3rem;
 }
@@ -925,21 +929,18 @@ header a {
 .contact-section {
   padding: 25rem 20px;
   text-align: center;
-  color: white;
   font-family: 'Segoe UI', sans-serif;
 }
 
 /* Headings */
 .contact-heading {
   text-align: center;
-  font-family: "Nunito", sans-serif;
   font-size: 4rem;
   margin: 40px 30px;
 }
 
 .contact-subheading {
   opacity: 0.9;
-  font-family: "Comic Neue", cursive;
   margin-bottom: 5px;
   font-size: 3rem;
   margin-bottom: 5rem;
@@ -983,51 +984,23 @@ header a {
   margin: 15px;
 }
 
-.contact-form textarea {
-  resize: vertical;
-}
 
 /* Button */
 .send-btn {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 300;
-  border: 3px solid rgba(255, 255, 255, 0.638);
-  background-color: rgba(243, 85, 0, 0.5);
-  padding: 12px 25px;
-  color: white;
-  font-size: 1rem;
-  border-radius: 25px;
-  margin-top: 15px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.send-btn:hover {
-  background-color: #eb0909;
-  transform: scale(1.05);
+  padding: 20px 21px;
+  font-size: 2.5rem;
+  border-radius: 6rem;
+  margin-top: 2.5rem;
 }
 
 /* Contact Links */
 .contact-links {
-  margin-top: 25px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  font-family: "Comic Neue", cursive;
+  margin-top: 2.5rem;
+  gap: 30px;
 }
 
 .contact-links a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 0.95rem;
-  transition: all 0.3s ease;
-}
-
-.contact-links a:hover {
-  color: white;
-  transform: scale(1.1);
-  text-shadow: 0 0 5px #fff;
+  font-size: 1.8rem;
 }
 
 /*Footer*/
@@ -1037,12 +1010,8 @@ header a {
 }
 
 .sec7 {
-    background-color: #252327;
-    padding: 0.1% 0px;
-    text-align: center;
-    font-family: "Comic Neue", cursive;
-    color: white;
-    font-size: 15px;
+    padding: 5% 0px;
+    font-size: 2rem;
 }
 
 }
