@@ -927,7 +927,7 @@ header a {
 
 /* Contact Section Base */
 .contact-section {
-  padding: 25rem 20px;
+  padding: 20rem 20px;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -942,7 +942,7 @@ header a {
 .contact-subheading {
   opacity: 0.9;
   margin-bottom: 5px;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 5rem;
 }
 
@@ -1011,7 +1011,7 @@ header a {
 
 .sec7 {
     padding: 5% 0px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 }
